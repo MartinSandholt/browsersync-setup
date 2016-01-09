@@ -9,7 +9,7 @@ gulp.task('serve', function() {
       server: {
           baseDir: "./src",
       },
-      open: "external",
+      open: false,
       port: 4444,
       ui: {
         port: 5555
