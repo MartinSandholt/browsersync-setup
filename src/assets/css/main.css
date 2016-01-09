@@ -3,18 +3,32 @@ body {
   padding: 0;
 }
 .proto {
-  background: black;
+  background-image: linear-gradient(-45deg, #00BCDD 0%, #EC008C 51%, #F9A01B 100%);
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
   width: 100vw;
   height: 100vh;
   padding: 0;
   margin: 0;
 }
-.proto p {
-  font-size: 2em;
-  font-family: sans-serif;
-  letter-spacing: 0.05em;
+.proto div {
+  width: 90vw;
+  max-width: 30em;
+}
+svg {
+  width: 100%;
+  height: 100%;
+}
+svg #proto_svg #rect {
+  fill: #00bcdd;
+}
+svg #proto_svg #triangle {
+  fill: #ec008c;
+}
+svg #proto_svg #oval {
+  fill: #f9a01b;
+}
+svg #proto_svg #text {
+  fill: #27262b;
 }
